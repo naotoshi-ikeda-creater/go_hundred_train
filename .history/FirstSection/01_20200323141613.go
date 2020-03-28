@@ -7,9 +7,9 @@ func main() {
 
 	var c []rune
 
-	// fmt.Printf("%v ", s)
+	fmt.Printf("%v s", s)
 
-	for i := len(s) - 7; i <= 6; i = i + 2 {
+	for i := len(s) - 6; i <= 6; i++ {
 		c = append(c, s[i])
 	}
 
